@@ -2,8 +2,8 @@
   "name": "monoservice",
   "private": true,
   "workspaces": [
-      "packages/*",
-      "packages/**/*"
+    "packages/*",
+    "packages/**/*"
   ],
   "devDependencies": {
     "lerna": "^3.22.1"

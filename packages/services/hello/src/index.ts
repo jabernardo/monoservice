@@ -1,7 +1,7 @@
 import type { Request, Response } from 'express';
 import { app } from '@monoservice/core';
 
-const name:string = "Hellsso";
+const name:string = "Hello";
 
 console.log("Test");
 
