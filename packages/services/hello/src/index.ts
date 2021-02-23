@@ -1,12 +1,4 @@
-import type { Request, Response } from 'express';
-import { app } from '@monoservice/core';
+import { Application } from '@monoservice/core';
 
-const name:string = "Hello";
-
-console.log("Test");
-
-app.get('/test', async (req: Request, res: Response) => {
-  res.send(name);
-});
-
+const app = new Application();
 app.listen(8000);
