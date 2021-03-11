@@ -5,6 +5,10 @@
     "packages/*",
     "packages/**/*"
   ],
+  "scripts": {
+    "prestart": "yarn workspace @monoservice/core build",
+    "start": "yarn workspace @monoservice/hello start"
+  },
   "devDependencies": {
     "lerna": "^3.22.1"
   }
